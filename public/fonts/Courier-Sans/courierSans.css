@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'courier-sans';
+    src: url('/fonts/Courier-Sans/CourierSansLLSub-Regular.woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'courier-sans';
+    src: url('/fonts/Courier-Sans/CourierSansLL-Regular.otf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'courier-sans';
+    src: url('/fonts/Courier-Sans/CourierSansLL-Bold.otf');
+    font-style: normal;
+    font-weight: 600;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'gt-haptik-regular';
+    src: url('/fonts/GT-Haptik/GT-Haptik-Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'gt-haptik-regular';
+    src: url('/fonts/GT-Haptik/GT-Haptik-Medium.otf') format('opentype');
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family:"gt-haptik-rotalic";
+    src:url("/fonts/GT-Haptik/GT-Haptik-Regular-Rotalic.otf") format("opentype"); 
+    font-style: normal;
+    font-weight: 500;
+  }

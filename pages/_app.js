@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import { QueryClient, QueryClientProvider } from 'react-query';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import { GlobalStyles } from '@components';
 
-export default MyApp
+const queryClient = new QueryClient();
+
+const MyApp = ({ Component, pageProps }) => {
+    return (
+        <QueryClientProvider client={queryClient}>
+            <GlobalStyles />
+            <Component {...pageProps} />
+        </QueryClientProvider>
+    );
+};
+
+export default MyApp;
