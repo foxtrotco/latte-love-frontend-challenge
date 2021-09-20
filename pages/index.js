@@ -1,4 +1,5 @@
 import { getLattes } from '@api';
+import Head from 'next/head';
 import { Navigation, LatteList } from '@components';
 
 const Home = (props) => {
@@ -6,6 +7,9 @@ const Home = (props) => {
 
     return (
         <div>
+            <Head>
+                <title>Latte Love | Foxtrot</title>
+            </Head>
             <Navigation />
             <LatteList initialData={lattes} />
         </div>
