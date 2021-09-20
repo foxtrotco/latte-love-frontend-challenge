@@ -5,7 +5,7 @@ Install the project using `npm install`
 Get the ENV key for Airtable from your pair programming partner and create a .env file that looks like this:
 
 ```
-    AIRTABLE_API_KEY=KEY_GOES_HERE
+AIRTABLE_API_KEY=KEY_GOES_HERE
 ```
 
 Then, run the development server:
