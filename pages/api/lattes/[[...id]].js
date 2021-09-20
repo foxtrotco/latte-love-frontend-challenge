@@ -42,9 +42,9 @@ export default function handler(req, res) {
             res.status(404).json({ error: 'name field required' });
         }
 
-        if (!req.body.modifiers) {
-            res.status(404).json({ error: 'modifiers field required' });
-        }
+        // if (!req.body.modifiers) {
+        //     res.status(404).json({ error: 'modifiers field required' });
+        // }
 
         base('Lattes').create(
             [

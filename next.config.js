@@ -1,5 +1,5 @@
 const ENV_VARS = {
-    AIRTABLE_API_KEY: 'keyLgHV6fkwwg8maP',
+    AIRTABLE_API_KEY: process.env.AIRTABLE_API_KEY,
 };
 
 module.exports = {
