@@ -37,7 +37,7 @@ Start from the "Create Latte" button in `components/LatteList/index.js` and util
 
 ### Searching
 
-Utilize the search field in `components/LatteList/index.js` to filter down the lattess based on their names.
+Utilize the search field in `components/LatteList/index.js` to filter down the lattees based on their names.
 
 ### Sorting
 
