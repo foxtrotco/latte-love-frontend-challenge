@@ -1,3 +1,20 @@
+// Using the Modal Component:
+//     You need to create a state var in the component you call it in order to use, here's a rough example:
+
+//     const [ isVisble, setIsVisible] = useState(false)
+
+//     return (
+//         {isVisible && (
+//             <Modal onClose={() => setIsVisible(false)}>
+//                 Children go here
+//             </Modal>
+//         )}
+//     )
+
+//     props:
+//         onClose: callback function to set your local state to close modal
+//         title: string for populating the title section
+
 import React, { useEffect, useRef } from 'react';
 
 import { Container, FormContainer, CloseButton, TopContainer, ContentContainer, Title } from './styled';

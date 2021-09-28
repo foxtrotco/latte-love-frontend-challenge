@@ -226,4 +226,4 @@ const typography = {
     R3b,
 };
 
-export default typography;
+export default { ...typography, typography };

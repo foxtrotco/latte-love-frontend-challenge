@@ -30,6 +30,7 @@ export const InputRow = styled.div`
 
 export const Label = styled.label`
     color: ${colors.oreo};
+    font-family: 'gt-haptik-regular';
     font-size: 12px;
     font-weight: 400;
     display: block;
