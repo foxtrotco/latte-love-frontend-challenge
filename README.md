@@ -35,6 +35,14 @@ Inside of `LatteCard` exists the reference to a re-usable component called `Rati
 
 Start from the "Create Latte" button in `components/LatteList/index.js` and utilize the exisitng re-usable Modal component located in `components/Modal` to power the creation process. The only necessary field to create a latte is the "name" field. To create a latte, use the POST request outlined above.
 
+#### Steps
+
+1. Set up Modal component to be used with local state inside of `components/LatteList/index.js`
+2. Create a form with a name field using the `Form`, `InputGroup`, `Label`, `Field`, and `Button` components from `@components`
+3. Manage state for the name field within the form component
+4. Create an `onSubmit` handler for the form you create that validates the name value is filled out.
+5. Handle any errors that could come from the backend and display the error message to the user.
+
 ### Searching
 
 Utilize the search field in `components/LatteList/index.js` to filter down the lattees based on their names.
